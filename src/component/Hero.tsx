@@ -14,7 +14,7 @@ export default function Hero() {
                 <Typography color={'white'} fontSize={'22px'} fontFamily={'Comfortaa, sans-serif'} lineHeight={'120%'} letterSpacing={'0.22px'}>Horem ipsum dolor sit amet, consectetur adipiscing elit.</Typography>
             </Box>
             <Box sx={{paddingTop:'170px', paddingLeft:'230px'}}>
-                {/* <img src={D.src} width={'588px'} height={'438px'}/> */}
+                <img src={D.src} width={'588px'} height={'438px'}/>
             </Box>
            </Stack>
         </Stack>

@@ -1,7 +1,6 @@
-import Navbar from "@/component/navbar/Navbar";
+import HomeScreen from "@/pages/home/Home";
 import { Box } from "@mui/material";
-import Footer from "@/component/footer/Footer";
-import Hero from "@/component/Hero";
+
 
 
 function HOme() {
@@ -13,9 +12,7 @@ function HOme() {
         justifyContent: "space-between",
       }}
     >
-      <Navbar />
-      <Hero/>
-      <Footer />
+      <HomeScreen/>
     </Box>
   );
 }
